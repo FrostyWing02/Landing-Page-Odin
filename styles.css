@@ -1,0 +1,6 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;      /* keeps borders inside the element size */
+  border: 0.5px solid #000;      /* black border on every element */
+}
