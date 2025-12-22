@@ -8,45 +8,47 @@
     <body>
         <header class="header">
             <h4 class="header__logo">Header Logo</h4>
-            <div class="header__wrapper">
+            <div class="header__link-wrapper">
                 <a class="header__link">link one</a>
                 <a class="header__link">link two</a>
                 <a class="header__link">link three</a>
             </div>
         </header> 
-        <section>
+        <section class="hero">
             <div>
-                <h1>This Website is awesome</h1>
-                <p>
+                <h1 class="hero__header">This Website is awesome</h1>
+                <p class="hero__text">
                     This website has some subtext that goes here under the main title. It's a smaller don't and the color is lower contrast.
                 </p>
-                <button>Sign up</button>
+                <button class="hero__button">Sign up</button>
             </div>
-            <img height="300 px" alt="forest" src="https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+            <img class="hero__img" height="300 px" alt="forest" src="https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
         </section>
-        <div>
-            <h2>Some random information</h2>
+        <section class="info">
+            <h2 class="info__header">Some random information</h2>
             <div>
-                <div><img ..><p>This is some subtext under an illustration or image</p></div>
-                <div><img ..><p>This is some subtext under an illustration or image</p></div>
-                <div><img ..><p>This is some subtext under an illustration or image</p></div>
-                <div><img ..><p>This is some subtext under an illustration or image</p></div>
+                <div class="info__item"><img class="item__img" ..><p class="item__text">This is some subtext under an illustration or image</p></div>
+                <div class="info__item"><img class="item__img" ..><p class="item__text">This is some subtext under an illustration or image</p></div>
+                <div class="info__item"><img class="item__img" ..><p class="item__text">This is some subtext under an illustration or image</p></div>
+                <div class="info__item"><img class="item__img" ..><p class="item__text">This is some subtext under an illustration or image</p></div>
             </div>
-        </div>
-        <div>
-            <p>
+        </section>
+        <section class="quote">
+            <p class="quote__text--primary">
                 This is an inspiring quote, or a testimonial from a customer. 
                 Maybe it's just filling upp space, or maybe people will actually read it. 
                 Who knows? All I know is that it looks nice.
             </p>
-            <p>-Thor, God of Thunder</p>
-        </div>
-        <div>
-            <div>
-                <div><h3>Call to action! It's time!</h3><p>Sign up to our product by clicking that button over there</p></div>
-                <button>Sign Up</button>
+            <p class="quote__text--secondary">-Thor, God of Thunder</p>
+        </section>
+        <section class="cta">
+            <div class="cta__wrapper">
+                <div class="cta__wrapper"><h3 class="cta__header">Call to action! It's time!</h3><p class="cta__text">Sign up to our product by clicking that button over there</p></div>
+                <button class="cta__button">Sign Up</button>
             </div>
-        </div>
-        <footer>Copyright © The Odin project 2021</footer>
+        </section>
+        <footer class="footer">
+            <p class="footer__text">Copyright © The Odin project 2021</p>
+        </footer>
     </body>
 </html>
