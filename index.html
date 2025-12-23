@@ -7,26 +7,32 @@
     </head>
     <body>
         <header class="header">
-            <h4 class="header__logo">Header Logo</h4>
-            <div class="header__wrapper">
-                <a class="header__link">header link one</a>
-                <a class="header__link">header link two</a>
-                <a class="header__link">header link three</a>
+            <div class="header-inner">
+                <h4 class="header__logo">Header Logo</h4>
+                <div class="header__wrapper">
+                    <a class="header__link">header link one</a>
+                    <a class="header__link">header link two</a>
+                    <a class="header__link">header link three</a>
+                </div>
             </div>
         </header> 
         <section class="hero">
-            <div>
-                <h1 class="hero__header">This Website is awesome</h1>
-                <p class="hero__text">
-                    This website has some subtext that goes here under the main title. It's a smaller don't and the color is lower contrast.
-                </p>
-                <button class="hero__button">Sign up</button>
-            </div>
-            <img class="hero__img" height="300 px" alt="forest" src="https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+            <div class="hero-inner">
+                <div class="hero__text-wrapper">
+                    <h1 class="hero__header">This Website is awesome</h1>
+                    <p class="hero__text">
+                        This website has some subtext that goes here under the main title. It's a smaller don't and the color is lower contrast.
+                    </p>
+                    <button class="hero__button">Sign up</button>
+                </div>
+
+                    <img class="hero__img" src="https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="forest">
+
+                </div>
         </section>
         <section class="info">
             <h2 class="info__header">Some random information</h2>
-            <div>
+            <div class="info__items">
                 <div class="info__item"><img class="item__img" ..><p class="item__text">This is some subtext under an illustration or image</p></div>
                 <div class="info__item"><img class="item__img" ..><p class="item__text">This is some subtext under an illustration or image</p></div>
                 <div class="info__item"><img class="item__img" ..><p class="item__text">This is some subtext under an illustration or image</p></div>
@@ -43,7 +49,10 @@
         </section>
         <section class="cta">
             <div class="cta__wrapper">
-                <div class="cta__wrapper"><h3 class="cta__header">Call to action! It's time!</h3><p class="cta__text">Sign up to our product by clicking that button over there</p></div>
+                <div class="cta__content">
+                    <h3 class="cta__header">Call to action! It's time!</h3>
+                    <p class="cta__text">Sign up to our product by clicking that button over there</p>
+                </div>
                 <button class="cta__button">Sign Up</button>
             </div>
         </section>
